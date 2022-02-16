@@ -1,28 +1,47 @@
-body {
-  background: #c5ebae;
-  width: 100vw;
-  height: 100vh;
-  font-family: 'Oswald', sans-serif;
-  color: #8cb594;
+body{
+  padding:0px;
+  margin:0px;
 }
 
-h2 {
-  font-weight: normal;
-  width: 90%;
-  margin-left: 5%;
-  text-align: center;
+.scenewrap{
+  display:block;
+  position:relative;
+  width:100vw;
+  height:100vh;
+  overflow:hidden;
+  
 }
 
-svg {
-  margin: -15px auto 0;
-  display: table;
-  width: 80%;
+.scene{
+  display:block;
+  position:absolute;
+  width:100%;
+  height:600px;
+  left:0px;
+  bottom:0px;
+  min-width:2000px;
+  background-image:url('https://puu.sh/qnenY/1644135b9c.svg');
+  background-size:contain;
+  background-repeat:no-repeat;
+  
 }
 
-#wheel, #top-toggle, #side-toggle, #button1, #button2 {
-	cursor: pointer;
+#Crane{
+  max-width:400px;
+  position:absolute;
+  left:10px;
+  top:-50px;
+  z-index:-1;
 }
 
-.city path {
-	visibility: hidden;
+#greentruck{
+  max-width:250px;
+  margin-top:260px;
+}
+
+#Mixer{
+  max-width:130px;
+  position:absolute;
+  left:590px;
+  top:317px;
 }
